@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #7e90c2;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.container {
+    width: 55%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    flex-basis: 17%;
+    flex-grow: 1;
+    height: 25%;
+    cursor: pointer;
+    border: 4px solid #9FAAC8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.robot-1 {
+    background-image: url(images/robot_1.jpg);
+}
+
+.robot-2 {
+    background-image: url(images/robot_2.jpg);
+}
+
+.robot-3 {
+    background-image: url(images/robot_3.jpg);
+}
+
+.robot-4 {
+    background-image: url(images/robot_4.jpg);
+}
+
+.robot-5 {
+    background-image: url(images/robot_5.jpg);
+}
+
+.robot-6 {
+    background-image: url(images/robot_6.jpg);
+}
+
+.robot-7 {
+    background-image: url(images/robot_7.jpg);
+}
+
+.robot-8 {
+    background-image: url(images/robot_8.jpg);
+}
+
+.robot-9 {
+    background-image: url(images/robot_9.jpg);
+}
+
+.robot-10 {
+    background-image: url(images/robot_10.jpg);
+}
+
+.off {
+    background-image: url(images/robot_0.jpg);
+    opacity: .5;
+}
+
+.hidden {
+    background-image: none;
+    background-color: #000000;
+}
+
+
+@media (orientation: portrait) {
+    div {
+        flex-basis: 30%;
+        height: 16.66vh;
+    }
+}
